@@ -2,7 +2,7 @@ import { Montserrat } from 'next/font/google'
 import './globals.css'
 import { ClerkProvider } from '@clerk/nextjs'
 
-const mont = Montserrat({ subsets: ['latin'] })
+const mont = Montserrat({ subsets: ['latin'], weight:['400', '600', '800', '900'] })
 
 export const metadata = {
   title: 'Next Auth | Shokhruz',
